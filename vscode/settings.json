@@ -1,11 +1,8 @@
 {
-  "C_Cpp.updateChannel": "Insiders",
-  "code-runner.runInTerminal": true,
-  "code-runner.saveAllFilesBeforeRun": true,
-  "code-runner.saveFileBeforeRun": true,
-  "editor.tabSize": 2,
+  "editor.tabSize": 4,
   "remote.SSH.remotePlatform": {
-    "data.cs.purdue.edu": "linux"
+    "data.cs.purdue.edu": "linux",
+    "192.168.0.24": "linux"
   },
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -43,12 +40,11 @@
       "source": "Git Bash"
     }
   },
-  "workbench.colorTheme": "Default Dark+",
+  "workbench.colorTheme": "Dark+",
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "editor.wordWrap": "on",
-  "window.zoomLevel": 2,
   "editor.unicodeHighlight.nonBasicASCII": false,
   "[scss]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -59,14 +55,10 @@
   "diffEditor.renderSideBySide": false,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "window.commandCenter": false,
-  "gitlens.ai.experimental.provider": "openai",
-  "gitlens.ai.experimental.openai.model": "gpt-4-turbo-preview",
-  "liveServer.settings.donotShowInfoMsg": true,
   "vsicons.presets.hideExplorerArrows": true,
   "workbench.editorAssociations": {
     "*.mp3": "wavPreview.audioPreview"
   },
-  "prisma.showPrismaDataPlatformNotification": false,
   "explorer.fileNesting.patterns": {
     "pubspec.yaml": "pubspec.lock,pubspec_overrides.yaml,.packages,.flutter-plugins,.flutter-plugins-dependencies,.metadata",
     "*.dart": "${capture}.g.dart",
@@ -78,6 +70,90 @@
     "*.s3db": "${capture}.${extname}-*"
   },
   "vsicons.dontShowNewVersionMessage": true,
-  "window.newWindowProfile": "Default"
+  "window.newWindowProfile": "Default",
+  "workbench.startupEditor": "none",
+  "git.autofetch": true,
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "chat.instructionsFilesLocations": {
+    ".github/instructions": true,
+    ".claude/rules": true,
+    "~/.copilot/instructions": true,
+    "~/.claude/rules": true,
+    "/tmp/postman-http-request-post-response.instructions.md": true,
+    "/tmp/postman-http-request-pre-request.instructions.md": true,
+    "/tmp/postman-collections-post-response.instructions.md": true,
+    "/tmp/postman-collections-pre-request.instructions.md": true,
+    "/tmp/postman-folder-post-response.instructions.md": true,
+    "/tmp/postman-folder-pre-request.instructions.md": true,
+    "C:\\Users\\alexp\\AppData\\Local\\Temp\\postman-collections-post-response.instructions.md": true,
+    "C:\\Users\\alexp\\AppData\\Local\\Temp\\postman-collections-pre-request.instructions.md": true,
+    "C:\\Users\\alexp\\AppData\\Local\\Temp\\postman-folder-post-response.instructions.md": true,
+    "C:\\Users\\alexp\\AppData\\Local\\Temp\\postman-folder-pre-request.instructions.md": true,
+    "C:\\Users\\alexp\\AppData\\Local\\Temp\\postman-http-request-post-response.instructions.md": true,
+    "C:\\Users\\alexp\\AppData\\Local\\Temp\\postman-http-request-pre-request.instructions.md": true,
+    "/var/folders/fz/br5qmk493x348bg944r30tb00000gn/T/postman-collections-post-response.instructions.md": true,
+    "/var/folders/fz/br5qmk493x348bg944r30tb00000gn/T/postman-collections-pre-request.instructions.md": true,
+    "/var/folders/fz/br5qmk493x348bg944r30tb00000gn/T/postman-folder-post-response.instructions.md": true,
+    "/var/folders/fz/br5qmk493x348bg944r30tb00000gn/T/postman-folder-pre-request.instructions.md": true,
+    "/var/folders/fz/br5qmk493x348bg944r30tb00000gn/T/postman-http-request-post-response.instructions.md": true,
+    "/var/folders/fz/br5qmk493x348bg944r30tb00000gn/T/postman-http-request-pre-request.instructions.md": true
+  },
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "editor.fontLigatures": false,
+  "editor.fontFamily": "'JetBrains Mono', 'MesloLGS Nerd Font Mono', 'Noto Color Emoji', monospace",
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "terminal.integrated.fontLigatures.enabled": true,
+  "workbench.sideBar.location": "right",
+  "workbench.editor.wrapTabs": true,
+  "editor.accessibilitySupport": "off",
+  "chat.agent.enabled": true,
+  "chat.checkpoints.showFileChanges": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "pgsql.serverGroups": [
+    {
+      "name": "Servers",
+      "id": "135629E7-0F2E-4FF7-9035-695995892D54",
+      "isDefault": true
+    }
+  ],
+  "pgsql.connections": [
+    {
+      "id": "92084664-8DE9-4E0A-9FB3-E5493FE6F26E",
+      "groupId": "135629E7-0F2E-4FF7-9035-695995892D54",
+      "authenticationType": "SqlLogin",
+      "connectTimeout": 15,
+      "applicationName": "vscode-pgsql",
+      "clientEncoding": "utf8",
+      "sslmode": "prefer",
+      "sshSavePassword": true,
+      "savePassword": true,
+      "sslRootCertMode": "none",
+      "server": "localhost",
+      "user": "postgres",
+      "password": "",
+      "database": "galia",
+      "profileName": "galia local",
+      "port": "5432",
+      "expiresOn": 0,
+      "sshPassword": "",
+      "profileSource": 0,
+      "emptyPasswordInput": false
+    }
+  ],
+  "gitlens.ai.model": "vscode",
+  "gitlens.ai.vscode.model": "copilot:gpt-4.1",
+  "chat.viewSessions.orientation": "stacked",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "terminal.integrated.tabs.title": "${sequence}",
+  "terminal.integrated.commandsToSkipShell": [
+    "workbench.action.toggleSidebarVisibility"
+  ],
+  "security.workspace.trust.untrustedFiles": "open"
+  // "terminal.integrated.allowChords": false,
 }
 
