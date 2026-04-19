@@ -115,6 +115,12 @@ alias lt='eza --tree'          # tree view
 eval "$(zoxide init zsh)"
 eval "$(zoxide init zsh --cmd cd)"
 
-alias ff='fzf'
+# fuzzy finding function
+ff() {
+  local dir="${1:-.}"
+  local file
+  file=$(fd -t f . "$dir" | fzf --preview "bat --color=always {}")
+  [[ -n "$file" ]] && nvim "$file"
+}
 
 eval "$(starship init zsh)"
