@@ -9,17 +9,16 @@ This repo is a centralized place for all of my configuration files. This will ma
 | `bash/`      | `~/`                                       | Bash startup files (`.bash_profile`, `.bashrc`, `.bashrc_mac`, `.inputrc`) |
 | `btop/`      | `~/.config/btop/`                          | btop system monitor config                                                 |
 | `ghostty/`   | `~/.config/ghostty/`                       | Ghostty terminal emulator config                                           |
-| `oh-my-zsh/` | `~/.oh-my-zsh/`                            | Oh My Zsh custom plugins (as git submodules)                               |
 | `starship/`  | `~/.config/`                               | Starship prompt config (`starship.toml`)                                   |
 | `vscode/`    | `~/Library/Application Support/Code/User/` | VS Code user settings                                                      |
 | `zsh/`       | `~/`                                       | Zsh config (`.zshrc`, `.zshrc.pre-oh-my-zsh`)                              |
 
 ## Setup on a new machine
 
-### 1. Clone with submodules
+### 1. Clone
 
 ```sh
-git clone --recurse-submodules https://github.com/alexp327/dotfiles.git ~/dev/dotfiles
+git clone https://github.com/alexp327/dotfiles.git ~/dev/dotfiles
 ```
 
 ### 2. Install Oh My Zsh
@@ -28,7 +27,15 @@ git clone --recurse-submodules https://github.com/alexp327/dotfiles.git ~/dev/do
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-### 3. Symlink configs
+### 3. Install Zsh plugins
+
+```sh
+# zsh-syntax-highlighting
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git \
+  ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+```
+
+### 4. Symlink configs
 
 Symlink each config to the expected location. Examples:
 
@@ -47,15 +54,11 @@ ln -sf ~/dev/dotfiles/starship/starship.toml ~/.config/starship.toml
 mkdir -p ~/.config/btop
 ln -sf ~/dev/dotfiles/btop/btop.conf ~/.config/btop/btop.conf
 
-# Oh My Zsh custom plugins (symlink each submodule)
-ln -sf ~/dev/dotfiles/oh-my-zsh/custom/plugins/zsh-syntax-highlighting ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
-ln -sf ~/dev/dotfiles/oh-my-zsh/custom/plugins/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
-
 # VS Code
 ln -sf ~/dev/dotfiles/vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
 ```
 
-### 4. Install tools
+### 5. Install tools
 
 | Tool | Category | What it does | Homebrew (macOS) | Ubuntu / Debian |
 | ---- | -------- | ------------ | ---------------- | --------------- |
