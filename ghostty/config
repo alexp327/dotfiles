@@ -15,5 +15,6 @@ window-colorspace = display-p3
 # Quality of life
 window-padding-x = 12
 window-padding-y = 8
-cursor-style = bar
+# cursor-style = bar
+cursor-style = block
 mouse-hide-while-typing = true
