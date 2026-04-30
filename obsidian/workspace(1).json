@@ -1,0 +1,266 @@
+{
+  "main": {
+    "id": "d0297834725ddd5d",
+    "type": "split",
+    "children": [
+      {
+        "id": "ef161c430b68caf4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "db88c7232d0db0fa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Development/Projects/Active/Alex’s Music Log.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Alex’s Music Log"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "22ce4299267044a1",
+    "type": "split",
+    "children": [
+      {
+        "id": "0d7e5519d266de29",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "539cc094f4ad9702",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "8ba5e8cbeb3427ec",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "935b7c58bc805582",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 330.5
+  },
+  "right": {
+    "id": "7a8a4445bd7b231e",
+    "type": "split",
+    "children": [
+      {
+        "id": "c7b39c52dcb54dd7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dc94dd252130f4d4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "TODO.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for TODO"
+            }
+          },
+          {
+            "id": "92e7c949ea9baaa1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "TODO.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from TODO"
+            }
+          },
+          {
+            "id": "fa705f54eecbbcb3",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "ee5067680e3ad235",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "TODO.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of TODO"
+            }
+          },
+          {
+            "id": "38a242600f46b7d6",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 325.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
+    }
+  },
+  "floating": {
+    "id": "e06ec2c644bbd7c9",
+    "type": "floating",
+    "children": [
+      {
+        "id": "2e60e0c8979bd4e5",
+        "type": "window",
+        "children": [
+          {
+            "id": "2651b1772a2dfdec",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "cdcf7afefe7c0ab5",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "TODO.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "TODO"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": -1440,
+        "y": 834,
+        "width": 399,
+        "height": 1228,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "cdcf7afefe7c0ab5",
+  "lastOpenFiles": [
+    "Development/Projects/Active/Alex’s Music Log.md",
+    "TODO.md",
+    "Finance/July 2025 How to Invest Rollover Funds.md",
+    "Finance/Untitled.md",
+    "Misc/Habits to start.md",
+    "Development/Projects/Project List.md",
+    "Development/Projects/Ideas/Galia.md",
+    "Development/Projects/Ideas/Euchre App.md",
+    "Development/Projects/Ideas/Websites for Albums.md",
+    "Misc/Random Thoughts/Frustrations w Emily.md",
+    "Workouts/Push 2 - 7.12.2025.md",
+    "Workouts/Push 2 - 6.10.2025 1.md",
+    "Alex’s Music Log.md",
+    "Workouts/Legs 1 - 7.9.2025.md",
+    "Excalidraw/Drawing 2025-07-07 17.21.09.excalidraw.md",
+    "Workouts/Pull 1 - 7.7.2025.md",
+    "Excalidraw/Drawing 2025-07-07 17.21.32.excalidraw.md",
+    "Finance/April 2025 Tariffs and Gameplan.md",
+    "Workouts/Legs 2 - 4.30.2025.md",
+    "Workouts/Legs 2 - 6.5.2025.md",
+    "Workouts/Push 2 - 5.2.2025.md",
+    "Images/Pasted image 20250608111630.png",
+    "Workouts/Pull 2 - 5.28.2025.md",
+    "Music/Piano/Comping Tools.md",
+    "Workouts/Pull 1 - 5.12.2025.md",
+    "Workouts/Pull 2 - 5.5.2025.md",
+    "Workouts/Legs 1 - 5.6.2025.md",
+    "Youtube Videos/Bridging the Gap",
+    "Youtube Videos",
+    "Development/Misc",
+    "Images/edfbd61d-a34f-4e2c-80fb-d9ad417ae0f6.png",
+    "Development/Blog/images/structured response code snippet.png",
+    "Development/Blog/images",
+    "Development/Blog/posts",
+    "Images/Pasted image 20250213151151.png",
+    "Images/Pasted image 20250213151110.png",
+    "Pasted image 20250213151151.png",
+    "Pasted image 20250213151110.png",
+    "Finance",
+    "Development/L3Harris",
+    "Quick Notes",
+    "Clippings",
+    "Music/Piano/Circle_of_fifths_deluxe_4.svg.png",
+    "Music/Piano",
+    "Images/IMG_5117.jpeg",
+    "Images/IMG_5101.jpeg",
+    "Untitled.canvas"
+  ]
+}

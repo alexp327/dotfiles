@@ -1,0 +1,273 @@
+{
+  "main": {
+    "id": "a432aae56bc7a7f1",
+    "type": "split",
+    "children": [
+      {
+        "id": "75e15100d01e8231",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "293d20ec1858fae7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Life/Engagement Thank You Notes.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Engagement Thank You Notes"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "be11abbc0ecbc743",
+    "type": "split",
+    "children": [
+      {
+        "id": "e0d50c59c4b906da",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "77fb10b2c78d710e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "f811458cba694b02",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "578f15b9dbf86ffc",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "349adb1321766502",
+    "type": "split",
+    "children": [
+      {
+        "id": "66f6d92aec6683c3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d0565b42b768e8a0",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Computer and Homelab/Reinstall Windows Checklist.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Reinstall Windows Checklist"
+            }
+          },
+          {
+            "id": "6bb0e46abe82cdd3",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Computer and Homelab/Reinstall Windows Checklist.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Reinstall Windows Checklist"
+            }
+          },
+          {
+            "id": "680daeb4a87a0901",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "7c85511adf73a8e4",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-ghost",
+              "title": "all-properties"
+            }
+          },
+          {
+            "id": "dfb43dc4bb63a973",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Computer and Homelab/Reinstall Windows Checklist.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Reinstall Windows Checklist"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "floating": {
+    "id": "2a901df3b1ddce89",
+    "type": "floating",
+    "children": [
+      {
+        "id": "17f6e248ef26ab17",
+        "type": "window",
+        "children": [
+          {
+            "id": "eec99ee3da8875b5",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "7d6d3d3f872bc025",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "TODO.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "TODO"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": -1440,
+        "y": 792,
+        "width": 440,
+        "height": 1256,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "7d6d3d3f872bc025",
+  "lastOpenFiles": [
+    "Life/Engagement Thank You Notes.md",
+    "TODO.md",
+    "Development/Projects/Ideas/Raspberry pi ideas.md",
+    "Misc/josh pc build.md",
+    "Development/Projects/Ideas/Automation ideas.md",
+    "Misc/Funny Emphasis Words.md",
+    "Misc/Golf Club Prospects.md",
+    "Misc/TODO logs.md",
+    "Gift Ideas/Emily.md",
+    "Letters/Dad 66th Birthday.md",
+    "Misc/Kelby Bach Packing List.md",
+    "Development/Projects/Ideas/Galia v3.md",
+    "Development/Projects/Ideas/Flag daily game.md",
+    "Computer and Homelab/Reinstall Windows Checklist.md",
+    "Computer and Homelab/Windows 11 Upgrade.md",
+    "Computer and Homelab",
+    "Life/Engagement Plan.md",
+    "Letters/Mom 62nd Birthday.md",
+    "Career/LinkedIn Sharpened Post.md",
+    "Gift Ideas/Mom.md",
+    "Development/Homelab.md",
+    "Development/CtCI/Trees and Graphs.md",
+    "Development/CtCI/Arrays and Strings.md",
+    "Development/CtCI/Cracking the Coding Interview.md",
+    "Development/CtCI/Big O.md",
+    "Development/CtCI/Linked Lists.md",
+    "Development/CtCI",
+    "Books/Non-Fiction/The Righteous Mind.md",
+    "Letters",
+    "Templates",
+    "Books/Non-Fiction",
+    "Books/Fiction",
+    "Books",
+    "Development/dotnet",
+    "Development/Remodel Health",
+    "Images/IMG_5117.jpeg",
+    "Images/FullSizeRender(5).jpeg",
+    "Images/IMG_5101.jpeg",
+    "Images/edfbd61d-a34f-4e2c-80fb-d9ad417ae0f6.png",
+    "Images/Pasted image 20250608111630.png",
+    "Development/Blog/images/structured response code snippet.png",
+    "Music/Piano/Circle_of_fifths_deluxe_4.svg.png",
+    "Images/Pasted image 20250213151110.png",
+    "Images/Pasted image 20250213151151.png",
+    "Youtube Videos/Bridging the Gap"
+  ]
+}
