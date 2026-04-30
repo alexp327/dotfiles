@@ -1,3 +1,6 @@
 [
-  "obsidian-linter"
+  "obsidian-excalidraw-plugin",
+  "obsidian-filename-heading-sync",
+  "obsidian-linter",
+  "obsidian-relative-line-numbers"
 ]

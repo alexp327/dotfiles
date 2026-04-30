@@ -1,6 +1,10 @@
 {
   "propertiesInDocument": "source",
   "alwaysUpdateLinks": true,
+  "vimMode": true,
+  "autoPairBrackets": false,
+  "autoPairMarkdown": false,
+  "showLineNumber": true,
   "promptDelete": false,
   "mobileToolbarCommands": [
     "editor:undo",
@@ -23,6 +27,5 @@
     "editor:toggle-numbered-list",
     "editor:toggle-checklist-status",
     "editor:configure-toolbar"
-  ],
-  "vimMode": true
+  ]
 }
