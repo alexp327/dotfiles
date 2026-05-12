@@ -18,3 +18,6 @@ window-padding-y = 8
 # cursor-style = bar
 cursor-style = block
 mouse-hide-while-typing = true
+
+# remove ligatures
+font-feature = -calt
