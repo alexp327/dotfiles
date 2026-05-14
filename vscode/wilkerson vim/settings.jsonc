@@ -1,0 +1,161 @@
+{
+    // ─────────────────────────────────────────────
+    // EDITOR: Core
+    // ─────────────────────────────────────────────
+    "editor.tabSize": 4,
+    "editor.wordWrap": "on",
+    "editor.lineNumbers": "relative",
+    "editor.linkedEditing": true,
+    "editor.minimap.enabled": false,
+    "editor.formatOnSave": true,
+    "editor.accessibilitySupport": "off",
+    "window.commandCenter": false,
+    // ─────────────────────────────────────────────
+    // EDITOR: Font & Ligatures
+    // ─────────────────────────────────────────────
+    "editor.fontFamily": "'JetBrainsMono NF', 'MesloLGS Nerd Font Mono', 'Noto Color Emoji', monospace",
+    "editor.fontLigatures": false,
+    // ─────────────────────────────────────────────
+    // EDITOR: Diff
+    // ─────────────────────────────────────────────
+    "diffEditor.ignoreTrimWhitespace": false,
+    // ─────────────────────────────────────────────
+    // WORKBENCH: Appearance
+    // ─────────────────────────────────────────────
+    "workbench.colorTheme": "Dark Modern",
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.sideBar.location": "right",
+    "workbench.startupEditor": "none",
+    "workbench.editor.wrapTabs": true,
+    // ─────────────────────────────────────────────
+    // TERMINAL
+    // ─────────────────────────────────────────────
+    "terminal.integrated.fontFamily": "'JetBrainsMono NF', 'MesloLGS NF'",
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        }
+    },
+    // ─────────────────────────────────────────────
+    // GIT
+    // ─────────────────────────────────────────────
+    "git.suggestSmartCommit": false,
+    // ─────────────────────────────────────────────
+    // AI: GitHub Copilot
+    // ─────────────────────────────────────────────
+    "github.copilot.enable": {
+        "*": false
+    },
+    "github.copilot.nextEditSuggestions.enabled": true,
+    // ─────────────────────────────────────────────
+    // AI: Chat & Agent
+    // ─────────────────────────────────────────────
+    "chat.agent.enabled": true,
+    "chat.checkpoints.showFileChanges": true,
+    "chat.viewSessions.orientation": "stacked",
+    "chat.instructionsFilesLocations": {
+        ".github/instructions": true,
+        ".claude/rules": true,
+        "~/.copilot/instructions": true,
+        "~/.claude/rules": true
+    },
+    // ─────────────────────────────────────────────
+    // EXTENSIONS
+    // ─────────────────────────────────────────────
+    "vsicons.dontShowNewVersionMessage": true,
+    // ─────────────────────────────────────────────
+    // DATABASE: PostgreSQL
+    // ─────────────────────────────────────────────
+    "pgsql.serverGroups": [
+        {
+            "name": "Servers",
+            "id": "135629E7-0F2E-4FF7-9035-695995892D54",
+            "isDefault": true
+        }
+    ],
+    "pgsql.connections": [
+        {
+            "id": "92084664-8DE9-4E0A-9FB3-E5493FE6F26E",
+            "groupId": "135629E7-0F2E-4FF7-9035-695995892D54",
+            "profileName": "galia local",
+            "server": "localhost",
+            "port": "5432",
+            "database": "galia",
+            "user": "postgres",
+            "password": "",
+            "authenticationType": "SqlLogin",
+            "sslmode": "prefer",
+            "sslRootCertMode": "none",
+            "clientEncoding": "utf8",
+            "connectTimeout": 15,
+            "applicationName": "vscode-pgsql",
+            "savePassword": true,
+            "sshSavePassword": true,
+            "sshPassword": "",
+            "emptyPasswordInput": false,
+            "expiresOn": 0,
+            "profileSource": 0
+        }
+    ],
+    // ─────────────────────────────────────────────
+    // VIM OPTS
+    // ─────────────────────────────────────────────
+    "extensions.experimental.affinity": {
+        "vscodevim.vim": 1
+    },
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<Esc>"
+            ],
+            "when": [
+                "editorFocus"
+            ],
+            "commands": [
+                ":nohl"
+            ],
+            "silent": true,
+        },
+    ],
+    "vim.visualModeKeyBindings": [
+        {
+            "before": [
+                "p"
+            ],
+            "after": [
+                "P"
+            ],
+        },
+    ],
+    "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-f>": false,
+        "<C-n>": false,
+        "<C-j>": false,
+        "<C-b>": false
+    },
+    "vim.incsearch": true,
+    "vim.searchHighlightColor": "#f6ff0080",
+    "vim.searchHighlightTextColor": "#fff",
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.highlightedyank.enable": true,
+    "vim.smartRelativeLine": true,
+    "vim.surround": true,
+    "gitlens.ai.model": "vscode",
+    "gitlens.ai.vscode.model": "copilot:gpt-4.1",
+    // "vim.useSystemClipboard": true,
+    // "vim.easymotion": true,
+}
