@@ -76,6 +76,16 @@
         "when": "vim.mode == 'Normal' && editorTextFocus",
     },
     {
+        "key": "space g b", // [G]o [B]ack
+        "command": "workbench.action.navigateBack",
+        "when": "vim.mode == 'Normal' && editorTextFocus && canNavigateBack"
+    },
+    {
+        "key": "space g f", // [G]o [F]orward
+        "command": "workbench.action.navigateForward",
+        "when": "vim.mode == 'Normal' && editorTextFocus && canNavigateForward"
+    },
+    {
         "key": "[ d", // Prev diagnostics
         "command": "editor.action.marker.prev",
         "when": "vim.mode == 'Normal' && editorTextFocus",
