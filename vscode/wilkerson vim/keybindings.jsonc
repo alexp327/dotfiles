@@ -51,6 +51,16 @@
         "when": "vim.mode == 'Normal' && editorTextFocus",
     },
     {
+        "key": "space g b", // [G]o [B]ack
+        "command": "workbench.action.navigateBack",
+        "when": "vim.mode == 'Normal' && editorTextFocus && canNavigateBack"
+    },
+    {
+        "key": "space g f", // [G]o [F]orward
+        "command": "workbench.action.navigateForward",
+        "when": "vim.mode == 'Normal' && editorTextFocus && canNavigateForward"
+    },
+    {
         "key": "space f f", // [F]ind [F]ile
         "command": "workbench.action.quickOpen",
         "when": "vim.mode == 'Normal' && (editorTextFocus || !inputFocus)",
@@ -76,16 +86,6 @@
         "when": "vim.mode == 'Normal' && editorTextFocus",
     },
     {
-        "key": "space g b", // [G]o [B]ack
-        "command": "workbench.action.navigateBack",
-        "when": "vim.mode == 'Normal' && editorTextFocus && canNavigateBack"
-    },
-    {
-        "key": "space g f", // [G]o [F]orward
-        "command": "workbench.action.navigateForward",
-        "when": "vim.mode == 'Normal' && editorTextFocus && canNavigateForward"
-    },
-    {
         "key": "[ d", // Prev diagnostics
         "command": "editor.action.marker.prev",
         "when": "vim.mode == 'Normal' && editorTextFocus",
@@ -93,6 +93,11 @@
     {
         "key": "] d", // Next diagnostics
         "command": "editor.action.marker.next",
+        "when": "vim.mode == 'Normal' && editorTextFocus",
+    },
+    {
+        "key": "space g c", // [G]o [C]omment line
+        "command": "editor.action.commentLine",
         "when": "vim.mode == 'Normal' && editorTextFocus",
     },
     {
@@ -133,7 +138,8 @@
     {
         "key": "ctrl-j",
         "command": "workbench.action.navigateDown",
-    }, // ========================
+    },
+    // ========================
     // ======= BUFFERS ========
     // ========================
     {
@@ -276,6 +282,16 @@
         "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus || suggestWidgetVisible && textInputFocus && !suggestWidgetHasFocusedSuggestion",
     },
     {
+        "key": "enter",
+        "command": "-acceptSelectedSuggestion",
+        "when": "suggestWidgetHasFocusedSuggestion && suggestWidgetVisible && textInputFocus",
+    },
+    {
+        "key": "ctrl+enter",
+        "command": "acceptSelectedSuggestion",
+        "when": "suggestWidgetHasFocusedSuggestion && suggestWidgetVisible && textInputFocus",
+    },
+    {
         "key": "down",
         "command": "-selectNextSuggestion",
         "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus || suggestWidgetVisible && textInputFocus && !suggestWidgetHasFocusedSuggestion",
@@ -309,6 +325,11 @@
         "key": "escape",
         "command": "closeMarkersNavigation",
         "when": "editorFocus && markersNavigationVisible",
+    },
+    {
+        "key": "escape",
+        "command": "removeSecondaryCursors",
+        "when": "vim.mode == 'Normal' && editorTextFocus && editorHasMultipleSelections",
     },
     {
         "key": "tab",
