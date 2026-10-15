@@ -1,0 +1,94 @@
+tap "microsoft/mssql-release", "https://github.com/Microsoft/homebrew-mssql-release"
+# Microsoft Azure CLI 2.0
+brew "azure-cli"
+# Clone of cat(1) with syntax highlighting and Git integration
+brew "bat"
+# Modern, maintained replacement for ls
+brew "eza"
+# Simple, fast and user-friendly alternative to find
+brew "fd"
+# Command-line fuzzy finder written in Go
+brew "fzf"
+# GitHub command-line tool
+brew "gh"
+# Distributed revision control system
+brew "git"
+# Open source programming language to build simple/reliable/efficient software
+brew "go"
+# Lazier way to manage everything docker
+brew "lazydocker"
+# Simple terminal UI for git commands
+brew "lazygit"
+# Simple tool to make locally trusted development certificates
+brew "mkcert"
+# Ambitious Vim-fork focused on extensibility and agility
+brew "neovim"
+# Manage multiple Node.js versions
+brew "nvm"
+# Easily download, build, install, upgrade, and uninstall Python packages
+brew "python-setuptools"
+# Ruby version manager
+brew "rbenv"
+# Search tool like grep and The Silver Searcher
+brew "ripgrep"
+# Microsoft SQL Server command-line interface
+brew "sqlcmd"
+# Cross-shell prompt for astronauts
+brew "starship"
+# Terminal multiplexer
+brew "tmux"
+# ODBC 3 connectivity for UNIX
+brew "unixodbc"
+# JavaScript package manager
+brew "yarn"
+# Shell extension to navigate your filesystem faster
+brew "zoxide"
+# Redis desktop manager
+cask "another-redis-desktop-manager"
+# Display management tool
+cask "betterdisplay"
+cask "font-fira-code"
+cask "font-jetbrains-mono"
+# Terminal emulator that uses platform-native UI and GPU acceleration
+cask "ghostty"
+# Web browser
+cask "google-chrome"
+# Reverse proxy, secure introspectable tunnels to localhost
+cask "ngrok"
+# Music streaming service
+cask "spotify"
+# To-do list
+cask "todoist-app"
+vscode "aaron-bond.better-comments"
+vscode "anthropic.claude-code"
+vscode "artdiniz.quitcontrol-vscode"
+vscode "bierner.markdown-mermaid"
+vscode "christian-kohler.path-intellisense"
+vscode "davidanson.vscode-markdownlint"
+vscode "dbaeumer.vscode-eslint"
+vscode "eamodio.gitlens"
+vscode "esbenp.prettier-vscode"
+vscode "mechatroner.rainbow-csv"
+vscode "ms-azuretools.vscode-containers"
+vscode "ms-azuretools.vscode-docker"
+vscode "ms-dotnettools.csdevkit"
+vscode "ms-dotnettools.csharp"
+vscode "ms-dotnettools.vscode-dotnet-runtime"
+vscode "ms-mssql.data-workspace-vscode"
+vscode "ms-mssql.mssql"
+vscode "ms-mssql.sql-bindings-vscode"
+vscode "ms-mssql.sql-database-projects-vscode"
+vscode "ms-python.debugpy"
+vscode "ms-python.python"
+vscode "ms-python.vscode-pylance"
+vscode "ms-python.vscode-python-envs"
+vscode "ms-vscode-remote.remote-containers"
+vscode "ms-vscode.powershell"
+vscode "sonarsource.sonarlint-vscode"
+vscode "tobias-z.vscode-harpoon"
+vscode "tyriar.sort-lines"
+vscode "usernamehw.errorlens"
+vscode "vscode-icons-team.vscode-icons"
+vscode "vscodevim.vim"
+cargo "tree-sitter-cli"
+npm "corepack"

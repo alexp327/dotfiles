@@ -112,8 +112,6 @@ alias ll='eza -lh --git'       # long list with git status
 alias la='eza -lah --git'      # include hidden files
 alias lt='eza --tree'          # tree view
 
-eval "$(zoxide init zsh)"
-eval "$(zoxide init zsh --cmd cd)"
 
 # fuzzy finding function
 ff() {
@@ -124,3 +122,7 @@ ff() {
 }
 
 eval "$(starship init zsh)"
+
+# zoxide must init last
+eval "$(zoxide init zsh)"
+eval "$(zoxide init zsh --cmd cd)"

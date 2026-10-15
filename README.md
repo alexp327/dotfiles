@@ -11,6 +11,7 @@ This repo is a centralized place for all of my configuration files. This will ma
 | `ghostty/`   | `~/.config/ghostty/`                       | Ghostty terminal emulator config                                           |
 | `starship/`  | `~/.config/`                               | Starship prompt config (`starship.toml`)                                   |
 | `obsidian/`  | `<vault>/.obsidian/`                       | Obsidian app settings, community plugins, and themes                       |
+| `rh-homebrew/` | n/a (`brew bundle --file=rh-homebrew/Brewfile`) | Homebrew formulae, casks, and VS Code extensions for the RH work machine |
 | `vscode/`    | `~/Library/Application Support/Code/User/` | VS Code user settings                                                      |
 | `zsh/`       | `~/`                                       | Zsh config (`.zshrc`, `.zshrc.pre-oh-my-zsh`)                              |
 
@@ -61,6 +62,8 @@ ln -sf ~/dev/dotfiles/vscode/settings.json ~/Library/Application\ Support/Code/U
 # Obsidian (replace ~/Notes with the path to your vault)
 ln -sf ~/dev/dotfiles/obsidian ~/Notes/.obsidian
 ```
+
+> **Note:** Plugin `main.js` files are not tracked; reinstall community plugins from Obsidian after linking.
 
 > **Note:** `workspace.json` and `workspace(n).json` files are written by Obsidian at runtime and are not tracked in this repo.
 

@@ -27,10 +27,13 @@
     "workbench.sideBar.location": "right",
     "workbench.startupEditor": "none",
     "workbench.editor.wrapTabs": true,
+    "workbench.browser.showInTitleBar": true,
+    "workbench.experimental.modernUI": false,
     // ─────────────────────────────────────────────
     // TERMINAL
     // ─────────────────────────────────────────────
     "terminal.integrated.fontFamily": "'JetBrainsMono NF', 'MesloLGS NF'",
+    "terminal.integrated.initialHint": false,
     "terminal.integrated.profiles.windows": {
         "PowerShell": {
             "source": "PowerShell",
@@ -65,6 +68,7 @@
     "chat.agent.enabled": true,
     "chat.checkpoints.showFileChanges": true,
     "chat.viewSessions.orientation": "stacked",
+    "chat.titleBar.openInAgentsWindow.enabled": false,
     "chat.instructionsFilesLocations": {
         ".github/instructions": true,
         ".claude/rules": true,
@@ -75,6 +79,7 @@
     // EXTENSIONS
     // ─────────────────────────────────────────────
     "vsicons.dontShowNewVersionMessage": true,
+    "mssql.openQueryResultsInTabByDefaultDoNotShowPrompt": true,
     // ─────────────────────────────────────────────
     // DATABASE: PostgreSQL
     // ─────────────────────────────────────────────
@@ -112,6 +117,7 @@
     // ─────────────────────────────────────────────
     // VIM OPTS
     // ─────────────────────────────────────────────
+    "vim.leader": " ",
     "extensions.experimental.affinity": {
         "vscodevim.vim": 1
     },
@@ -174,6 +180,21 @@
     "vim.highlightedyank.enable": true,
     "vim.smartRelativeLine": true,
     "vim.surround": true,
+    // ─────────────────────────────────────────────
+    // LANGUAGE: Formatters
+    // ─────────────────────────────────────────────
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[markdown]": {
+        "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
     "gitlens.ai.model": "vscode",
     "gitlens.ai.vscode.model": "copilot:gpt-4.1",
     // "vim.useSystemClipboard": true,
