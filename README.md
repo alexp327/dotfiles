@@ -7,6 +7,7 @@ This repo is a centralized place for all of my configuration files. This will ma
 | Directory    | Symlink target                             | Description                                                                |
 | ------------ | ------------------------------------------ | -------------------------------------------------------------------------- |
 | `bash/`      | `~/`                                       | Bash startup files (`.bash_profile`, `.bashrc`, `.bashrc_mac`, `.inputrc`) |
+| `claude/`    | `~/.claude/`                               | Claude Code settings, global `CLAUDE.md`, status line script, skill lock   |
 | `btop/`      | `~/.config/btop/`                          | btop system monitor config                                                 |
 | `ghostty/`   | `~/.config/ghostty/`                       | Ghostty terminal emulator config                                           |
 | `starship/`  | `~/.config/`                               | Starship prompt config (`starship.toml`)                                   |
@@ -59,9 +60,17 @@ ln -sf ~/dev/dotfiles/btop/btop.conf ~/.config/btop/btop.conf
 # VS Code
 ln -sf ~/dev/dotfiles/vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
 
+# Claude Code
+mkdir -p ~/.claude
+ln -sf ~/dev/dotfiles/claude/settings.json ~/.claude/settings.json
+ln -sf ~/dev/dotfiles/claude/CLAUDE.md ~/.claude/CLAUDE.md
+ln -sf ~/dev/dotfiles/claude/statusline-command.sh ~/.claude/statusline-command.sh
+
 # Obsidian (replace ~/Notes with the path to your vault)
 ln -sf ~/dev/dotfiles/obsidian ~/Notes/.obsidian
 ```
+
+> **Note:** `claude/settings.json` omits the machine/project-specific `autoMode` block. Skills in `claude/skill-lock.json` are third-party; reinstall with `npx skills add <source>` (e.g. `mattpocock/skills`).
 
 > **Note:** Plugin `main.js` files are not tracked; reinstall community plugins from Obsidian after linking.
 
