@@ -1,0 +1,38 @@
+{
+  "permissions": {
+    "deny": [
+      "DesignSync",
+      "NotebookEdit",
+      "SendMessage",
+      "CronCreate",
+      "CronDelete",
+      "CronList"
+    ],
+    "ask": [
+      "Bash(git push*)"
+    ]
+  },
+  "model": "opus",
+  "disableClaudeAiConnectors": true,
+  "disableBundledSkills": true,
+  "disableWorkflows": true,
+  "disableArtifact": true,
+  "statusLine": {
+    "type": "command",
+    "command": "bash ~/.claude/statusline-command.sh"
+  },
+  "enabledPlugins": {
+    "mattpocock-skills@claude-plugins-official": true
+  },
+  "effortLevel": "medium",
+  "modelSettings": {
+    "claude-opus-5": {
+      "effortLevel": "medium"
+    }
+  },
+  "tui": "fullscreen",
+  "autoMemoryEnabled": false,
+  "theme": "auto",
+  "agentPushNotifEnabled": true,
+  "remoteControlAtStartup": true
+}
