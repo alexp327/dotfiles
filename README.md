@@ -40,6 +40,8 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git \
 
 ### 4. Symlink configs
 
+> **Tip:** With Claude Code installed, link the `setup-dotfiles` skill (see Claude Code below) and run `/setup-dotfiles` — it lists every option, asks what to set up, backs up existing files, and symlinks the rest.
+
 Symlink each config to the expected location. Examples:
 
 ```sh
@@ -65,6 +67,8 @@ mkdir -p ~/.claude
 ln -sf ~/dev/dotfiles/claude/settings.json ~/.claude/settings.json
 ln -sf ~/dev/dotfiles/claude/CLAUDE.md ~/.claude/CLAUDE.md
 ln -sf ~/dev/dotfiles/claude/statusline-command.sh ~/.claude/statusline-command.sh
+mkdir -p ~/.claude/skills
+ln -sfn ~/dev/dotfiles/claude/skills/setup-dotfiles ~/.claude/skills/setup-dotfiles
 
 # Obsidian (replace ~/Notes with the path to your vault)
 ln -sf ~/dev/dotfiles/obsidian ~/Notes/.obsidian
